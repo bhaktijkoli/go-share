@@ -18,9 +18,12 @@ function createWindow () {
    * Initial window options
    */
   mainWindow = new BrowserWindow({
-    height: 563,
+    height: 640,
+    width: 360,
     useContentSize: true,
-    width: 1000
+    resizable: false,
+    maximizable: false,
+    title: "GO Share"
   })
 
   mainWindow.loadURL(winURL)
