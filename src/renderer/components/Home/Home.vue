@@ -5,10 +5,10 @@
       <h3 class="white">Create a portal or join a portal.</h3>
     </div>
     <div class="center" style="margin-top:10vh">
-      <button class="button white rounded wide">Create</button>
+      <router-link :to="{name:'portal-create'}" class="button white rounded wide">Create</router-link>
     </div>
     <div class="center" style="margin-top:20vh">
-      <button class="button primary rounded wide">Join</button>
+      <router-link :to="{name:'portal-create'}" class="button primary rounded wide">Join</router-link>
     </div>
   </div>
 </template>
